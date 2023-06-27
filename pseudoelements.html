@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Pseudo Elements</title>
+    <style>
+        body{
+            background: gray;
+        }
+        .banner{
+            color:blue;
+            text-align: center;
+        }
+        h1::before{
+            content: "Hello Before Element ";
+            color: yellow;
+        }
+        h1::after{
+            content: "This is after Element.";
+            color:aliceblue;
+        }
+    </style>
+</head>
+<body>
+    <div class="banner">
+        <h1>This is pseudo elements</h1>
+    </div>
+</body>
+</html>

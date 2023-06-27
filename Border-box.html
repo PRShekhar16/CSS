@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Border-Box-Style</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box; 
+            /* If face some reduculous output without adding border box size */
+        }
+        .Border_Boxing{
+            background: #00ff00;
+            padding: 30px;
+            width:200px
+        }
+        .Normal
+        {
+            background: #123645;
+            padding: 20px;
+            color: #fff;
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div class="Border_Boxing">I'M Border Boxing</div>
+    <div class="Normal">I'm Normal</div>
+    <div class="Border_Boxing"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p></div>
+</body>
+</html>

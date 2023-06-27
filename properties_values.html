@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Extra properties and values</title>
+    <style>
+        body{
+            background-color: #ffc09f;
+        }
+        p{
+            background-color: #ffee93;
+        }
+        .relative{
+            background: #aacc99;
+        }
+        .absolute{
+           background-color: #a0ced9; 
+           /* Here we picked color by using Hexadec */
+        }
+        #properties{
+            font-size: 2rem;
+            /* Here we give values in different way that is rem */
+            text-align: center;
+        }
+        #relative{
+            font-size: 32px;
+            /* font size will be taken in pixels it is constant in any webpage. */
+            text-align: center;
+        }
+        #absolute{
+            font-size: 2em;
+            text-align: center;
+        }
+        .outer{
+            width: 1500px;
+            height: 300px;
+            background : red; 
+            /* Here we picked color by name */
+        }
+        .inner{
+            width: 100%;
+            height: 50%;
+            background: blue;
+        }
+        .header{
+            color: #fff;
+            width: 50vw;
+            height: 50vh;
+            background: #bb2130
+        }
+        .banner{
+            width: 30vw;
+            height: 40vh;
+            background: rgba(15,19,150,0.6);
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium reiciendis iste totam voluptatibus corporis delectus, inventore suscipit eum similique cumque natus maxime, eius aut ut quos vero.
+        <hr>
+        <div class="banner">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea blanditiis facilis earum delectus corrupti dignissimos numquam dolores? Nulla eligendi officiis illo laboriosam facere explicabo voluptas? Eos assumenda maiores aliquam? Laborum.
+        </div>
+    </div>
+    <div class="outer">
+        <div class="inner"></div>
+    </div>
+    <h2 id="properties">
+        Css properties and its values
+    </h2>
+        <p>Hello Everyone! To add much more style to the websites and making of inoavative interfaces for users css properties and values plays a vital role and it is gives a way to the developer</p>
+        <h1 id="relative">Relative</h1>
+        <div class="relative">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum, molestiae. Neque ducimus exercitationem ex at mollitia alias veniam delectus explicabo molestiae!</div>
+        <h1 id="absolute">Absolute</h1>
+        <div class="absolute">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, consectetur. Expedita ullam iure excepturi, officiis dolorem quo est culpa itaque non enim, nostrum deserunt qui laborum assumenda nam repellendus? Eius, tenetur?</div>
+</body>
+</html>
